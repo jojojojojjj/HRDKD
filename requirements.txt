@@ -1,0 +1,17 @@
+mmcv~=2.0.1
+numpy~=1.23.5
+mmengine~=0.8.4
+Pillow~=9.4.0
+SimpleITK~=2.2.1
+einops~=0.6.1
+timm~=0.6.13
+mmpretrain~=1.0.2
+scikit-learn~=1.2.2
+prettytable~=3.7.0
+MedPy~=0.4.0
+packaging~=23.1
+opencv-python~=4.8.1.78
+mmdet~=3.1.0
+setuptools~=60.2.0
+wandb~=0.14.2
+dynamic_network_architectures~=0.2
