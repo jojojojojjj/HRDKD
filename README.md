@@ -16,7 +16,7 @@ python train.py {config}
 ```pycon
 python test.py {config}
 ```
-{config} means the config path. The config path can be found in [newconfigs](configs "newconfigs").
+{config} means the config path. The config path can be found in [new_configs](new_configs "new_configs").
 
 # Acknowledgement
 
