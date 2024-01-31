@@ -16,11 +16,11 @@ python train.py {config}
 ```pycon
 python test.py {config}
 ```
-{config} means the config path. The config path can be found in [configs](configs "configs").
+{config} means the config path. The config path can be found in [newconfigs](configs "configs").
 
 # Acknowledgement
 
-Specially thanks to [MMSegmentation](https://github.com/open-mmlab/mmsegmentation "MMSegmentation"), [MMEngine](https://github.com/open-mmlab/mmengine "MMEngine").
+Specially thanks to [MMSegmentation](https://github.com/open-mmlab/mmsegmentation "MMSegmentation"), [MMEngine](https://github.com/open-mmlab/mmengine "MMEngine") and [MMRazor](https://github.com/open-mmlab/mmrazor "MMRazor").
 
 # Citation
 
@@ -41,7 +41,14 @@ Specially thanks to [MMSegmentation](https://github.com/open-mmlab/mmsegmentatio
   year={2022}
 }
 ```
-
+```bash
+@misc{2021mmrazor,
+    title={OpenMMLab Model Compression Toolbox and Benchmark},
+    author={MMRazor Contributors},
+    howpublished = {\url{https://github.com/open-mmlab/mmrazor}},
+    year={2021}
+}
+```
 # License
 
 This project is released under the [Apache 2.0 license](https://github.com/open-mmlab/mmsegmentation/blob/main/LICENSE "Apache 2.0 license") of mmsegmentation.
