@@ -10,7 +10,7 @@ with read_base():
     from ..._base_.schedules.schedule_40k_cityscapes import * # noqa
 
 teacher_cfg_path = "your_path/new_configs/deeplabv3+/deeplabv3plus_r101_d8_4xb2_80k_cityscapes_512x1024.py"  # noqa: E501
-student_cfg_path = 'your_path/new_configs/deeplabv3+/deeplabv3plus_r18b_d8_4xb2_40k_cityscapes_512x1024.py'  # noqa: E501
+student_cfg_path = 'your_path/new_configs/pspnet/pspnet_r18_d8_4xb2_40k_cityscapes_512x1024.py'  # noqa: E501
 teacher_ckpt = "your_path/vis_ckpts/deeplabv3+/deeplabv3plus_r101-d8_512x1024_40k_cityscapes_20200605_094614-3769eecf.pth"
 
 model = dict(
@@ -38,4 +38,4 @@ model = dict(
         ),
         ),
         ))
-work_dir='your_path/work_dir/HRDKD_DLabV3P-r101_PSPNet-r18_Cityscapes'
+work_dir='your_path/work_dir/RDKD_DLabV3P-r101_PSPNet-r18_Cityscapes'
